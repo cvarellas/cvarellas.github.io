@@ -1,0 +1,207 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css");
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4 {
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 120px;
+	font-family: 'Karla'; sans-serif;
+}
+
+h2 {
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+	font-size: 48px;
+	font-family: 'Abril Fatface', cursive;
+	margin: 50px;
+}
+
+h4 {
+	font-size: 24px;
+	font-family: 'Karla'; sans-serif;
+	text-align: left;
+	margin-left: 20%;
+	padding: 1em;
+	text-align: left;
+}
+
+nav {
+	font-size: 1rem;
+	font-family: 'Montserrat', sans-serif;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0;
+	padding: 0 10px;
+}
+
+nav ul {
+	display: inline;
+}
+
+header { 
+	text-align: center;
+}
+
+footer {
+	font-size: 0.75rem;
+	font-family: 'Montserrat', sans-serif;
+	color: #FFFFFF;
+	margin-bottom: 0px;
+	width: 100%;
+	height: 100px;
+	background-color: #000000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  	justify-content: center;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	-webkit-stroke-width: 5.3px;
+		-webkit-stroke-color: #FFFFFF;
+		-webkit-fill-color: #FFFFFF;
+		text-shadow: 1px 0px 20px purple;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.bio {
+	font-family: 'Montserrat', sans-serif;
+	float: right;
+	text-align: left;
+}
+
+.social {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.social li {
+	display: inline;
+	margin: 0;
+	padding: 0 10px;
+}
+
+.clips {
+	list-style-type: none;
+	text-align: left;
+	margin-left: 25%;
+}
+
+.clips li {
+	text-align: left;
+}
+
+.clipstext {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+main {
+	flex: 1;
+	margin: 3em 0;
+}
+
+.index,
+.work {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  	justify-content: center;
+}
+
+.work h2 {
+	margin: .5em 0;
+}
+
+.container {
+	max-width: 1040px;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+.row {
+	display: flex;
+}
+
+.row div {
+	width: 50%;
+}
+
+.about img {
+	width: 100%;
+}
+
+.about .row div,
+.about h2 {
+	padding: 10px;
+}
+
+.flex-container {
+	display: -webkit-inline-flex;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	padding: 3em;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.logo {
+	-webkit-order: 1;
+	order: 1;
+	width: 10em;
+}
+
+.description {
+	-webkit-order: 2;
+	order: 2;
+	padding: 2em;
+}
+
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+.hyperlink {
+	text-decoration: underline;
+}
